@@ -1,0 +1,137 @@
+body {
+	 background-color: 	#EED8AE; /*цвет ¤чеек*/
+	background-size: 100%; 
+	margin: 0 auto;
+}
+
+div.page1 { 
+	position: absolute;
+	left: 85%;
+	top: 5%;
+}
+
+div.page2 { 
+	position: absolute;
+	left: 85%;
+	top: 40%;
+}
+
+div.page3 { 
+	position: absolute;
+	left: 20%;
+	top: 8%;
+}
+
+Button.Butt { /* нопка с скруглЄнными кра¤ми*/
+    font-size: 16px; /*размер шрифта*/
+    border-radius: 15px; /*скругление границы*/
+    background-color: #D3D3D3; /*цвет ¤чеек*/
+    border: 3px solid black; /*цвет границы*/
+    width: 250px; /*тширина кнопки*/
+    height: 40px;
+}
+
+Button.exit { /* нопка с скруглЄнными кра¤ми*/
+	position: absolute;
+	left: 93%;
+	top: 5%;
+    font-size: 12px; /*размер шрифта*/
+    border-radius: 15px; /*скругление границы*/
+    background-color: #D3D3D3; /*цвет ¤чеек*/
+    border: 3px solid black; /*цвет границы*/
+    width: 40x; /*тширина кнопки*/
+    height: 30px;
+}
+
+Button.create { /* нопка с скруглЄнными кра¤ми*/
+	position: absolute;
+	right: 3%;
+	top: 85%;
+    font-size: 16px; /*размер шрифта*/
+    border-radius: 15px; /*скругление границы*/
+    background-color: #D3D3D3; /*цвет ¤чеек*/
+    border: 3px solid black; /*цвет границы*/
+    width: 280px; /*тширина кнопки*/
+    height: 50px;
+}
+
+H1.Header {
+
+	color: #363636;
+    font-size: 40px; /*размер шрифта*/
+    font-weight: bold; /*жирность шрифта*/
+	text-align: center;
+}
+
+H1.First {
+	color: #D3D3D3;
+    font-size: 40px; /*размер шрифта*/
+    font-weight: bold; /*жирность шрифта*/
+}	
+
+H1.little {
+	color: #363636;
+    font-size: 20px; /*размер шрифта*/
+    font-weight: bold; /*жирность шрифта*/
+}
+
+p.little1 {
+	color: #1C1C1C;
+    font-size: 30px; /*размер шрифта*/
+    font-weight: bold; /*жирность шрифта*/
+}		
+
+H1.Head {
+	color: 	#708090;
+    font-size: 40px; /*размер шрифта*/
+    font-weight: bold; /*жирность шрифта*/
+}
+
+H1.Head1 {
+	text-align: center;
+	color: 	#000000;
+    font-size: 40px; /*размер шрифта*/
+    font-weight: bold; /*жирность шрифта*/
+}
+H2.First {
+	position: absolute;
+	left: 90%;
+	top: 1%;
+	color: #000000;
+    font-size: 15px; /*размер шрифта*/
+    font-weight: bold; /*жирность шрифта*/
+}	
+
+input.First {
+	font-size: 15px;
+    border-color: black; /*цвет границы*/
+    border-width: 4px; /*толщина границы*/
+	border-radius: 15px; /*скругление границы*/
+	width: 250px; 
+    height: 40px;
+}
+
+table.begin {
+	position: absolute;
+	left: 85%;
+	top: 9%;
+	background-color: #4F4F4F; 
+}
+
+
+table.create {
+	width: 70%;
+	position: static;
+	left: 15%;
+	top: 5%;
+	background-color:#8B8B7A; 
+	margin: 0 auto;
+}
+
+div.div_first {
+	position: relative;
+	width: 70%;
+	left: 15%;
+	bottom: 0%;
+	background-color:#8B8B7A; 
+}
